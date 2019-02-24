@@ -1,0 +1,39 @@
+
+.row {
+
+  @mixin clearfix;
+
+  
+
+  &--gutters-large {
+    margin-right: -20px;
+  }
+
+  
+
+  &--gutters-large > div {
+    padding-right: 20px;
+  }
+
+  &__b-margin-until-medium {
+    margin-bottom: 1rem;
+  }
+
+  @mixin atSmall {
+
+    
+
+    &__medium-6 {
+      float: left;
+      width: 45%;
+      padding-left: 10px;
+      transform: translateX(5%);
+
+      
+    }
+
+  
+  }
+  
+
+}
