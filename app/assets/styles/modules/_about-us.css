@@ -1,5 +1,103 @@
-.about-us {
-	display: block;
-	color: red;
-	
+@import url('https://fonts.googleapis.com/css?family=Abril+Fatface');
+
+.stickyy1
+{
+
+
+
+  background-color: rgba(255, 255, 255, .8);
+  position: sticky;
+  position: -webkit-sticky;
+  top: 120px;
+  font: 3rem;
+  left: 30px;
+  font-weight: 700;
+  color: black;
+  text-align: center;
+  padding-left: 20px;
+  padding-right: 20px;
+  transform: translateX(0%);
+  
 }
+
+.stickyy {
+
+
+
+  
+  position: -webkit-sticky;
+  position: sticky;
+  top: 110px;
+  /* left: 100%; No need of this anymore */
+  /* Other styles   */
+  background-color: rgba(255, 255, 255, .8);
+  color: black;
+  line-height: 1.8em;
+  margin: 0 -80px 0 20px; /* Changed to -100px right and 0 on the other sides*/
+  padding: 5px;
+  display: inline-block;
+  float: left;
+
+}
+
+
+.block-1 
+{
+  height: 700px;
+  width: 100%;
+  background-size: cover;
+  background-image: url('../../assets/images/rew1.jpg');
+  box-sizing: border-box;
+  background-position: center;
+}
+.block-2
+{
+  height: 700px;
+  width: 100%;
+  background-size: cover;
+  background-image: url('../../assets/images/rew2.jpg');
+  box-sizing: border-box;
+  background-position: center;
+}
+.block-3 {
+
+  background-color: #e0e6ef;
+  margin-bottom: -36px;
+  
+ 
+  @mixin atMedium { 
+ 
+  height: 700px;
+  width: 100%;
+  background-size: cover;
+  background-image: url('../../assets/images/rew3.jpg');
+  box-sizing: border-box;
+  background-position: center;
+}
+}
+
+
+.block-4 {
+
+    background-color: #e0e6ef;
+    margin-bottom: -36px;
+    box-sizing: border-box;
+    
+
+ @mixin atMedium {
+
+  height: 700px;
+  width: 100%;
+  background-size: cover;
+  background-image: url('../../assets/images/rew1.jpg');
+  box-sizing: border-box;
+  background-position: center;
+
+}
+}
+
+
+
+
+
+
