@@ -1,0 +1,51 @@
+.footer 
+
+
+	#site-content {
+
+	position: relative;
+	z-index: 1;
+
+	
+  
+}
+
+#site-footer {
+	padding: 25px 0;
+	font-size: 85%;
+	background-color: $mainOrange;
+	position: fixed;
+	z-index: -1;
+	left: 0;
+	right: 0;
+	bottom: 0;
+}
+
+/* NOT NEEDED, THIS IS JUST FOR THE PEN */
+@import url(//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css);
+
+html, body {
+	padding: 0;
+	margin: 0;
+	background-color: #FFF;
+}
+#site-content {
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-image: url('http://dummyimage.com/3000x3000/D1D1D1/2A2A2A.png?text=Scroll+Down');
+}
+
+#site-footer {
+	/* DID THIS SO YOU CAN SEE IT AUTOMATICALLY SCALE - SIMULATION RESPONSIVENESS */
+	/* RESIZE THE WINDOW AND THEN SCROLL VERITCALLY AGAIN */
+	background-size: cover;
+	background-position: center;
+	background-image: url('../../assets/images/web/man-walking-large.jpg');
+	opacity: .9;
+
+}
+
+
+
+

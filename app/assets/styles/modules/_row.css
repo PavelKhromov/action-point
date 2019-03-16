@@ -50,6 +50,27 @@
       width: 37%;
       padding-left: 10px;
       transform: translateX(5%);
+      margin-top: 10px;
+      margin-bottom: 10px;
+    }
+
+    &__medium-3 {
+      float: left;
+      width: 30%;
+      padding-left: 10px;
+      margin-top: 10px;
+      margin-bottom: 10px;
+
+
+    }
+
+    &__social-until-small {
+      margin-top: 10.1rem;
+
+    }
+
+    &__social-last {
+      text-align: right;
     }
 
   

@@ -9,10 +9,14 @@
 @import "modules/_about-us";
 @import "modules/_offers";
 @import "modules/_generic-content-container";
-@import "mdules/_container";
-@import "modules/_hvrbox";
+@import "modules/_container";
 @import "modules/_video-wrapper";
 @import "modules/_sticky";
 @import "modules/_testimonials";
 @import "modules/_test";
 @import "modules/_review";
+
+@import "modules/_footer";
+@import "modules/_contact-info";
+@import "modules/_site-header";
+@import "modules/_primary-nav";

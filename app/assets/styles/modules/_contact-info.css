@@ -1,0 +1,37 @@
+.contact-info {
+	
+	background-color: rgba(255, 255, 255, .8);
+	padding: 2px 1rem 2px 1rem;
+	background-size: cover;
+    display: block;
+    border-radius: 5px;
+
+
+
+
+}
+
+h3 {
+		color: $mainOrange;
+	}
+
+h2 {
+	padding-top: 10px;
+	font-weight: 400;
+	color: $mainBlue;
+	font-size: 1.4rem;
+	margin: 0;
+
+
+
+	@mixin atSmall {
+		font-size: 2rem;
+	}
+
+
+
+	p {
+		text-align: left;
+		padding-bottom: 10px;
+	}
+}
