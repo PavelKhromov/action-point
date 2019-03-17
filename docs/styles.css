@@ -694,7 +694,7 @@ html [type="button"], /* 1 */
 }.testimonials {
   background-color: rgba(255, 255, 255, .8);
 }.test {
-	background: url('../../assets/images/web/beach.jpg') top center no-repeat;
+	background: url('assets/images/web/beach.jpg') top center no-repeat;
     background-size: cover;
     display: block;
     
@@ -767,7 +767,7 @@ html [type="button"], /* 1 */
 	/* RESIZE THE WINDOW AND THEN SCROLL VERITCALLY AGAIN */
 	background-size: cover;
 	background-position: center;
-	background-image: url('../../assets/images/web/man-walking-large.jpg');
+	background-image: url('assets/images/web/man-walking-large.jpg');
 	opacity: .9;
 
 }.contact-info {
