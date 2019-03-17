@@ -1,0 +1,89 @@
+.wrapper {
+  overflow: hidden;
+  padding-left: 18px;
+  padding-right: 18px;
+  max-width: 1236px;
+  margin-left: auto;
+  margin-right: auto;
+  
+
+  &--medium {
+    max-width: 976px;
+  }
+
+  &--narrow {
+    max-width: 470px;
+  }
+
+  &--less-margin {
+    margin-top: -45px;
+  }
+
+  &--no-padding-until-medium {
+    padding-left: 0;
+    padding-right: 0;
+
+    @mixin atMedium {
+      padding-left: 18px;
+      padding-right: 18px;
+    }
+  }
+
+  .wrapper {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  &--b-margin {
+    margin-bottom: 1rem;
+
+    @mixin atSmall {
+      margin-bottom: 2.875rem;
+    }
+  }
+
+  &--icons-all {
+    text-align: center;
+    display: inline;
+    margin-left: 32%;
+    margin-top: 40px;
+
+
+
+
+
+
+    @mixin atSmall {
+      display: inline;
+      margin-left: 40%;
+      margin-top: 40px;
+
+    }
+
+
+    @mixin atMedium {
+      margin-left: 42%;
+      
+
+
+    }
+
+    @mixin atLarge {
+      margin-left: 44%;
+      
+
+
+    }
+
+
+
+    
+
+    
+  }
+
+  &--icons {
+    
+  }
+
+}

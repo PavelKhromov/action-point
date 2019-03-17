@@ -1,0 +1,20 @@
+.video-wrapper {
+	position: relative;
+	padding-bottom: 56.25%; /* 16:9 */
+	padding-top: 30px;
+	height: 0;
+	padding-left: 13%;
+	display: block;
+
+
+	
+}
+
+.video-wrapper iframe {
+	position: absolute;
+	width: 75%;
+	height: 75%;
+	border: 5px solid $mainOrange;
+	
+}
+

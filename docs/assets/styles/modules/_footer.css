@@ -1,0 +1,50 @@
+.footer 
+
+
+	#site-content {
+
+	position: relative;
+	z-index: 1;
+
+	
+  
+}
+
+#site-footer {
+	padding: 25px 0;
+	font-size: 85%;
+	background-color: $mainOrange;
+	position: fixed;
+	z-index: -1;
+	left: 0;
+	right: 0;
+	bottom: 0;
+}
+
+
+
+html, body {
+	padding: 0;
+	margin: 0;
+	background-color: #FFF;
+}
+#site-content {
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+	
+}
+
+#site-footer {
+	/* DID THIS SO YOU CAN SEE IT AUTOMATICALLY SCALE - SIMULATION RESPONSIVENESS */
+	/* RESIZE THE WINDOW AND THEN SCROLL VERITCALLY AGAIN */
+	background-size: cover;
+	background-position: center;
+	background-image: url('../../assets/images/web/man-walking-large.jpg');
+	opacity: .9;
+
+}
+
+
+
+
