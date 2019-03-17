@@ -4,6 +4,8 @@
 		float: right;
 
 	}
+
+	
 	
 
 
@@ -28,8 +30,8 @@ li {
 }
 
 a {
-	color: #FFF;
+	
 	direction: none;
-	font-weight: 300;
+	font-weight: 350;
 	text-decoration: none;
 }

@@ -15,6 +15,10 @@
     max-width: 470px;
   }
 
+  &--less-margin {
+    margin-top: -45px;
+  }
+
   &--no-padding-until-medium {
     padding-left: 0;
     padding-right: 0;
@@ -39,15 +43,35 @@
   }
 
   &--icons-all {
+    text-align: center;
     display: inline;
-    margin-left: 30%;
+    margin-left: 32%;
     margin-top: 40px;
+
+
+
+
 
 
     @mixin atSmall {
       display: inline;
-      margin-left: 35%;
+      margin-left: 40%;
       margin-top: 40px;
+
+    }
+
+
+    @mixin atMedium {
+      margin-left: 42%;
+      
+
+
+    }
+
+    @mixin atLarge {
+      margin-left: 44%;
+      
+
 
     }
 
