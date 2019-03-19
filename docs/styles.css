@@ -810,7 +810,6 @@ html [type="button"], /* 1 */
 }.site-header__logo {
   display: none;
   position: absolute;
-  border: 3px solid #2f5572;
   margin-top: -12px;
   left: 50%;
   transform: translateX(-50%);
