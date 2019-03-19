@@ -18,15 +18,14 @@
 	&__logo {
 		display: none;
 		position: absolute;
-		border: 3px solid $mainBlue;
 		margin-top: -12px;
-		
 		left: 50%;
 		transform: translateX(-50%);
 		padding: 0;
 		padding-bottom: -20px;
 
 		@mixin atMedium {
+
 			display: block;
 			left: auto;
 			transform: translateX(0);
