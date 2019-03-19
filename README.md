@@ -6,3 +6,4 @@
 ![mount1](https://user-images.githubusercontent.com/44010550/54622532-20ca4500-4a40-11e9-80cb-a2ff4832ed85.JPG)
 ![valera](https://user-images.githubusercontent.com/44010550/54622610-40fa0400-4a40-11e9-86b1-976d65e3568b.JPG)
 ![valera-small](https://user-images.githubusercontent.com/44010550/54622656-553e0100-4a40-11e9-8ad6-7cadc21c9cea.JPG)
+![pony1](docs/assets/images/pony1.JPG)
