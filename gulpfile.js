@@ -9,11 +9,11 @@ mixins = require('postcss-mixins'),
 webpack = require('webpack');
 
 gulp.task('default', function() {
-  console.log("Hooray - you created a Gulp task.");
+  console.log("default task");
 });
 
 gulp.task('html', function() {
-  console.log("Imagine something useful being done to your HTML here.");
+  console.log("html saved");
 });
 
 gulp.task('styles', function() {

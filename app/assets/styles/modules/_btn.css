@@ -6,6 +6,7 @@
 	display: inline-block;
 	border-radius: 5px;
 
+
 	&__container {
 		@mixin atMedium {
 			float: right;
@@ -20,10 +21,13 @@
 		padding: 0.6rem 1.5rem;
 		text-decoration: none;
 		color: #FFF;
+		margin-left: 20px;
+
 
 	@mixin atSmall {
 		font-size: 0.9rem;
 		padding: 0.6rem 1.5rem;
+
 	}
 
 	@mixin atMedium {

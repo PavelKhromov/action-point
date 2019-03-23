@@ -54,7 +54,7 @@ a {
 	position: absolute;
 	top: 50%;
 	left: 50%;
-	font-size: 1rem;
+	font-size: .5rem;
 	border-top: 1px solid rgb(179, 179, 179); /* for old browsers */
 	border-top: 1px solid rgba(179, 179, 179, 0.7);
 	margin-top: 5px;
@@ -63,15 +63,17 @@ a {
 }
 .hvrbox.active .hvrbox-text_mobile {
 	display: block;
+
 }
 
 
-@mixin atMedium {
+
 
 	.hvrbox .hvrbox-text {
+		
 	text-align: center;
-	font-size: 1.4rem;
-	display: block;
+	font-size: .5rem;
+	display: inline-block;
 	position: absolute;
 	top: 50%;
 	left: 50%;
@@ -79,7 +81,7 @@ a {
 	-webkit-transform: translate(-50%, -50%);
 	-ms-transform: translate(-50%, -50%);
 	transform: translate(-50%, -50%);
-}
 
+	
 	
 }

@@ -33,6 +33,8 @@
     font-size: 1.7rem;
     font-weight: 200;
     margin: -10px 0 -10px 0;
+    padding-bottom: -25px;
+
   }
 
   &__subtitle {
