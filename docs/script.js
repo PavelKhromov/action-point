@@ -1,4 +1,3 @@
-
 $(document).ready(function() {
 	
 	// INITIATE THE FOOTER
